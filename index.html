@@ -178,7 +178,7 @@ function App() {
   };
 
   const generate = async () => {
-    if (!API_KEY || API_KEY === "YOUR_ANTHROPIC_API_KEY_HERE") {
+    if (!API_KEY || API_KEY === "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") {
       setError("API key nahi daali! index.html file mein API_KEY variable update karo.");
       return;
     }
@@ -264,9 +264,9 @@ Write ONLY the script (and music section if requested). No preamble.`
       <h1>🎙️ Hinglish Monologue Generator</h1>
       <p className="subtitle">Screenshots + details = ready-to-record YouTube script</p>
 
-      {API_KEY === "YOUR_ANTHROPIC_API_KEY_HERE" && (
+      {API_KEY === "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" && (
         <div className="api-key-banner">
-          ⚠️ API key missing! Open <code>index.html</code> in a text editor and replace <code>YOUR_ANTHROPIC_API_KEY_HERE</code> with your key from <a href="https://console.anthropic.com" target="_blank">console.anthropic.com</a>
+          ⚠️ API key missing! Open <code>index.html</code> in a text editor and replace <code>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</code> with your key from <a href="https://console.anthropic.com" target="_blank">console.anthropic.com</a>
         </div>
       )}
 
